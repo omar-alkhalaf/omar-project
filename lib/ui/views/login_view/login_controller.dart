@@ -68,6 +68,4 @@ class LoginController extends GetxController {
     SharedPrefrenceRepository().setAppLnaguage(code);
     Get.updateLocale(getLocal());
   }
-
-  void checkUsername() {}
 }
