@@ -20,7 +20,7 @@ class _SingupViewState extends State<SingupView> {
   TextEditingController passwordController =
       TextEditingController(text: 'P@ssw0rd');
   TextEditingController confirmPasswordController =
-      TextEditingController(text: 'P@ssw0rd');
+      TextEditingController(text: 'P@ssw0rddd');
 
   UserInfo user = UserInfo(email: 'malkek@,asd');
 
