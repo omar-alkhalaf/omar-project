@@ -16,7 +16,7 @@ class _SingupViewState extends State<SingupView> {
   GlobalKey<FormState> formKey = GlobalKey<FormState>();
 
   TextEditingController usernameController =
-      TextEditingController(text: 'User@gmail.com');
+      TextEditingController(text: 'malek@gmail.com');
   TextEditingController passwordController =
       TextEditingController(text: 'P@ssw0rd');
   TextEditingController confirmPasswordController =
