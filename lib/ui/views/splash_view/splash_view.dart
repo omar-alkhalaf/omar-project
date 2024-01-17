@@ -1,10 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'package:sp1_e_commerce/core/data/repository/shared_prefrence_repository.dart';
-import 'package:sp1_e_commerce/ui/shared/utils.dart';
-import 'package:sp1_e_commerce/ui/views/intro_view/intro_view.dart';
-import 'package:sp1_e_commerce/ui/views/landing_view/landing_view.dart';
-import 'package:sp1_e_commerce/ui/views/main_view/main_view.dart';
+
 
 class SplashView extends StatefulWidget {
   const SplashView({super.key});

@@ -8,7 +8,6 @@ import 'package:path/path.dart' as path;
 
 import 'package:sp1_e_commerce/core/enums/request_type.dart';
 import 'package:http_parser/http_parser.dart';
-import 'package:sp1_e_commerce/ui/views/login_view/login_view.dart';
 
 class NetworkUtil {
   static String baseUrl = 'fakestoreapi.com';
@@ -91,7 +90,7 @@ class NetworkUtil {
       //* path.basename(C://user/images/user.png) => user.png
 
       request.fields.addAll(fields!); //? (Text type) first_name => Hazem
-      request.headers.addAll(headers??{});
+      request.headers.addAll(headers ?? {});
 
       var response = await request.send();
       var value = await response.stream.bytesToString();

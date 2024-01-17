@@ -4,8 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:sp1_e_commerce/core/data/repository/post_repository.dart';
-import 'package:sp1_e_commerce/core/data/repository/prodcut_repository.dart';
+
+
 import 'package:sp1_e_commerce/core/data/repository/shared_prefrence_repository.dart';
 import 'package:sp1_e_commerce/core/services/cart_service.dart';
 import 'package:sp1_e_commerce/core/services/connectivity_service.dart';
@@ -58,10 +58,10 @@ double screenHeight(double percent) {
 }
 
 SharedPrefrenceRepository get storege => Get.find<SharedPrefrenceRepository>();
-PostRepository get post => Get.find<PostRepository>();
+
 ConnectivityService get connectivityService => Get.find<ConnectivityService>();
 Connectivity get connectivity => Get.find<Connectivity>();
-ProductRepository get productRepository => Get.find<ProductRepository>();
+
 CartService get cartService => Get.find<CartService>();
 LocationService get locationService => Get.find<LocationService>();
 
