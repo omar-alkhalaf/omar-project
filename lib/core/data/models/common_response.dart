@@ -6,7 +6,7 @@ class CommonResponse<T> {
   late String message;
   T? data;
 
- // CommonResponse(this.data, this.message, this.statusCode);
+  // CommonResponse(this.data, this.message, this.statusCode);
 
   CommonResponse.fromJson(Map<String, dynamic> json) {
     statusCode = json['statusCode'];

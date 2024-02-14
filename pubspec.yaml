@@ -46,7 +46,7 @@ dependencies:
   get: ^4.6.5
   connectivity_plus: ^3.0.2
   provider: ^6.0.5
-  flutter_svg: ^1.0.3
+  flutter_svg: ^2.0.9
   location: ^5.0.0
   geocoding: ^2.1.0
   google_maps_flutter: ^2.3.0

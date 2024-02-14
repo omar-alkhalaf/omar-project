@@ -7,8 +7,16 @@ import 'package:sp1_e_commerce/core/data/repository/shared_prefrence_repository.
 import 'package:sp1_e_commerce/core/services/connectivity_service.dart';
 import 'package:sp1_e_commerce/core/translation/app_translation.dart';
 import 'package:sp1_e_commerce/ui/shared/utils.dart';
+import 'package:sp1_e_commerce/ui/views/splash_view/Match%20details/match_details_view.dart';
+import 'package:sp1_e_commerce/ui/views/splash_view/match/match_controller.dart';
+import 'package:sp1_e_commerce/ui/views/splash_view/match/match_view.dart';
+import 'package:sp1_e_commerce/ui/views/splash_view/meusiam/meusiam_view.dart';
+import 'package:sp1_e_commerce/ui/views/splash_view/news/news_view.dart';
+import 'package:sp1_e_commerce/ui/views/splash_view/results/results_view.dart';
 
-import 'package:sp1_e_commerce/ui/views/splash_view/splash_view.dart';
+import 'package:sp1_e_commerce/ui/views/splash_view/splash/splash_view.dart';
+
+import '../ui/shared/custom_widgets/custom_container_results.dart';
 
 class MyApp extends StatelessWidget {
   MyApp({super.key});
@@ -31,7 +39,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: SplashView(),
+        home: resultsView(),
       ),
     );
   }
