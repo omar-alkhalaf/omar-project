@@ -1,6 +1,7 @@
-import 'dart:math';
+import 'package:get/get.dart';
 
 import 'package:flutter/material.dart';
+import 'package:sp1_e_commerce/ui/views/splash_view/results/results_controller.dart';
 
 import '../../../shared/colors.dart';
 import '../../../shared/utils.dart';
@@ -13,7 +14,6 @@ class resultsView extends StatefulWidget {
 }
 
 class _resultsViewState extends State<resultsView> {
-  @override
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(

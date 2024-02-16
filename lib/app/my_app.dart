@@ -17,6 +17,7 @@ import 'package:sp1_e_commerce/ui/views/splash_view/results/results_view.dart';
 import 'package:sp1_e_commerce/ui/views/splash_view/splash/splash_view.dart';
 
 import '../ui/shared/custom_widgets/custom_container_results.dart';
+import '../ui/views/splash_view/Match details-cahnge/omar_view.dart';
 
 class MyApp extends StatelessWidget {
   MyApp({super.key});
@@ -39,7 +40,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: resultsView(),
+        home: omarView(),
       ),
     );
   }

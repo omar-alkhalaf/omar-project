@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:sp1_e_commerce/ui/shared/colors.dart';
 import 'package:sp1_e_commerce/ui/shared/utils.dart';
+import 'package:get/get.dart';
+
+import 'match_details_controller.dart';
 
 class matchDetailsView extends StatefulWidget {
   const matchDetailsView({super.key});
@@ -11,8 +14,10 @@ class matchDetailsView extends StatefulWidget {
 }
 
 class _matchDetailsViewState extends State<matchDetailsView> {
+  detailsController controller = Get.put(detailsController());
   @override
   Widget build(BuildContext context) {
+    var index;
     return DefaultTabController(
       length: 3,
       child: SafeArea(
@@ -55,6 +60,7 @@ class _matchDetailsViewState extends State<matchDetailsView> {
                     padding: const EdgeInsets.only(top: 20, left: 20),
                     child: Column(
                       children: [
+                        Image.network(controller.allList[index].logo ?? ""),
                         Image.asset('assets/images/pngs/alwthbeh.png'),
                         SizedBox(
                           height: screenHeight(70),

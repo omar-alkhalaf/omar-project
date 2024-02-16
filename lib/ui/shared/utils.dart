@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
-
+import 'package:sp1_e_commerce/core/data/repository/club_repository.dart';
 
 import 'package:sp1_e_commerce/core/data/repository/shared_prefrence_repository.dart';
 import 'package:sp1_e_commerce/core/services/cart_service.dart';
@@ -64,5 +64,6 @@ Connectivity get connectivity => Get.find<Connectivity>();
 
 CartService get cartService => Get.find<CartService>();
 LocationService get locationService => Get.find<LocationService>();
+ClubRepository get clubRepository => Get.find<ClubRepository>();
 
 bool isOnline = false;
